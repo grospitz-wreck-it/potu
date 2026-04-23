@@ -1,6 +1,6 @@
-import { useGame } from "../hooks/useGame"
-import { Card } from "../components/Card"
-import { SwipeHandler } from "../components/SwipeHandler"
+import { useGame } from "../hooks/useGame.js"
+import { Card } from "../components/Card.jsx"
+import { SwipeHandler } from "../components/SwipeHandler.jsx"
 
 export default function SwipeScreen() {
   const { currentCard, swipe, t, lang, setLang, state } = useGame()
